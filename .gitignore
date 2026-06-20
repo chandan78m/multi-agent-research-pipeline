@@ -1,0 +1,10 @@
+cd "/Users/chandanmaurya/Desktop/MultiAgent System"
+cat > .gitignore << 'EOF'
+.env
+.venv/
+__pycache__/
+*.pyc
+research-ui/node_modules/
+research-ui/dist/
+.DS_Store
+EOF
